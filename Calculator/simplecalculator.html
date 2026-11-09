@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- Wrap everything you want centered inside this container -->
+<div class="calculator-container">
+    <h1 style="background-color:rgb(126, 210, 240);">CALCULATOR</h1>
+    
+    <div class="calculator">
+        <h2 style="border:2px solid DodgerBlue;">Simple Calculator</h2>
+        <p>Enter two numbers and click an operation button to see the result.</p>
+        
+        <h3>Enter Number-1</h3>
+        <input type="number" id="num1">
+        
+        <h3>Enter Number-2</h3>
+        <input type="number" id="num2">
+        
+        <h3>Choose Operator</h3>
+        <div class="operation-buttons">
+            <button type="button" onclick="performCalculation('+')">+</button>
+            <button type="button" onclick="performCalculation('-')">-</button>
+            <button type="button" onclick="performCalculation('*')">*</button>
+            <button type="button" onclick="performCalculation('/')">/</button>
+        </div>
+
+        <h3>Result</h3>
+        <input type="number" id="result" readonly>
+    </div>
+</div>
+
+
+
+    <script src="script.js"></script>
+</body>
+<footer>
+</footer>
+</html>

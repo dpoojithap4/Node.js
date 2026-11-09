@@ -1,0 +1,21 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#f4f4f4}
+header{display:flex;justify-content:space-between;align-items:center;background:#1f3c88;color:#fff;padding:15px 40px}
+.logo{display:flex;align-items:center;gap:10px}
+.logo .c{width:50px;height:50px;border-radius:50%;background:#fff;color:#1f3c88;display:flex;align-items:center;justify-content:center;font-size:28px}
+nav ul{display:flex;list-style:none;gap:15px}
+nav a{text-decoration:none;color:#fff;padding:8px 15px;border-radius:20px}
+.active,nav a:hover{background:#ffd43b;color:#000}
+.hero{display:flex;justify-content:space-between;align-items:center;padding:40px}
+.hero img{width:420px;border-radius:12px}
+.btn{background:#1f3c88;color:#fff;padding:10px 18px;border-radius:20px;text-decoration:none}
+.features,.books{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;padding:30px}
+.card{background:#fff;padding:20px;border-radius:10px;box-shadow:0 2px 8px #ccc}
+.center{display:flex;justify-content:center;align-items:center;padding:40px}
+.form{background:#fff;padding:25px;border-radius:10px;width:420px;display:flex;flex-direction:column;gap:12px}
+.form input,.form textarea,.form select{padding:10px}
+.form button{padding:10px;background:#1f3c88;color:#fff;border:none}
+.table{padding:30px}
+.table table{width:100%;border-collapse:collapse;background:#fff}
+.table th,.table td{border:1px solid #ccc;padding:10px;text-align:center}
+footer{text-align:center;background:#1f3c88;color:#fff;padding:15px;margin-top:20px}

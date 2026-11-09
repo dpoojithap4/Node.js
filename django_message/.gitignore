@@ -1,0 +1,18 @@
+# Django
+db.sqlite3
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.venv/
+
+# Node.js
+node_modules/
+package.json
+package-lock.json
+
+# Environment files
+.env
